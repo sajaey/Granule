@@ -1,0 +1,1316 @@
+
+#facet-area-title { color:white; background-color:#555555; vertical-align:middle; text-align:center; font-size:1.4em; font-weight:bold }
+
+/*template classes*/
+#print-masthead{ display:none; }
+.cty-tou{ background:#000; white-space:nowrap; }
+/*.cty-tou-div{ color:#85abd0; white-space:nowrap; }*/
+.cty-tou-border{ background:#666; }
+.mbbg{ background:#069; background-image:url(/ISS_Static/images/lenovo_common/css/mh-grad-v15.gif); background-repeat:repeat-y; background-position:0% 0%; }
+.mbbg-cn{ background:#000; background-image:url(/ISS_Static/images/lenovo_common/css/tptc-mh-grad-v15.gif); background-repeat:repeat-y; background-position:0% 0%; }
+
+/*span.upper-masthead-divider{ background-image:url(/ISS_Static/images/lenovo_common/css/upper-masthead-divider.gif); background-repeat:no-repeat; background-position:0% 100%; }*/
+/*.country{ color:#666666; white-space:nowrap; }*/
+.countryR5{ color:#fff; white-space:nowrap; }
+
+.seriesNameT  a{color:#999999; font-size:14px; font-weight:bold; font-family:'Helvetica Neue 65 Bold', Helvetica, sans-serif; }
+.seriesNameT{color:#999999; font-size:14px; font-weight:bold; font-family:'Helvetica Neue 65 Bold', Helvetica, sans-serif; }
+/*.main-bottom {background-color: #c9d3dd;}*/
+#main-bottom-offers { background-color:#ffffff; }
+#main-bottom-right { background-color:#ffffff; }
+
+
+/*a.ur-link:visited{ text-decoration:none; color:#85abd0; white-space:nowrap; }*/
+/*a.ur-link:hover{ text-decoration:underline; color:#85abd0; white-space:nowrap; }*/
+
+/*.input{ background:#eee; }*/
+/*td.blbg{ border-top:1px solid #41607f; border-bottom:1px solid #e3edf7; white-space:nowrap; }*/
+
+/*#taglinetable { margin-top: 0px;}*/
+
+/*.mastheadLogoCell { width:250px;}*/
+.shellBannerText { padding-right: 10px; }
+.mastheadFirstRowTable { height: 50px; }
+
+/*a.masthead-mainlink:link{ text-decoration:none; white-space:nowrap; font-size:10px; color:#666666;}*/
+/*a.masthead-mainlink:hover{ text-decoration:underline; color:#069; white-space:nowrap; }*/
+
+a.masthead-mainlinkR5:link,
+a.masthead-mainlinkR5:visited{ text-decoration:none; color:#069; white-space:nowrap;  }
+a.masthead-mainlinkR5:hover{ text-decoration:underline; color:#069; white-space:nowrap; }
+
+/* Removed broken
+#left-nav-angle{ background-image:url("//www.lenovo.com/i/v15/t/left-nav-angle.gif"); background-repeat:no-repeat; background-position:100% 100%; }
+tr.left-nav-last td{ background-image:url("//www.lenovo.com/i/v15/t/left-nav-corner.gif"); background-repeat:no-repeat; background-position:0% 100%; }
+.left-nav-corner{ background-image:url("//www.lenovo.com/i/v15/t/left-nav-corner.gif"); background-repeat:no-repeat;  background-position:100% 100%; }
+td.bbl{ background-image: url("//www.lenovo.com/i/v15/bullets/bl-bullet.gif"); background-repeat:no-repeat; width:6px; }
+td.dbl{ background-image: url("//www.lenovo.com/i/v15/bullets/dbl-bullet.gif"); background-repeat:no-repeat; width:6px; }
+td.bkl{ background-image: url("//www.lenovo.com/i/v15/bullets/bk-bullet.gif"); background-repeat:no-repeat; width:6px; }
+.tbimage1{background-image:url("//www.lenovo.com/i/v11/tabs/tbimage1.gif"); white-space:nowrap; }
+.tbimage2{background-image:url("//www.lenovo.com/i/v11/tabs/tbimage2.gif"); }
+.v14-graphic-tab-unselected{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_dmpttn.gif"); white-space:nowrap; }
+.v14-graphic-tab-unselected2{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_dmpttn2.gif"); white-space:nowrap; }
+td.v14-tab-hlrt{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_hlrt.gif"); background-repeat:no-repeat; background-color:#eceef1; }
+td.v14-tab-hlrt-end{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_hlrt_end.gif"); background-repeat:no-repeat; background-color:#eceef1; }
+td.v14-tab-hllt{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_hllt.gif"); background-repeat:no-repeat; background-color:#eceef1; }
+td.v14-tab-dmrt{background-image:url("//www.lenovo.com/i/v15/tabs/tab_dmrt.gif"); background-repeat:no-repeat; background-color:#e3e3e3; }
+td.v14-tab-dmrt-end{background-image:url("//www.lenovo.com/i/v15/tabs/tab_dmrt_end.gif"); background-repeat:no-repeat; background-color:#e3e3e3; }
+td.v14-tab-hlrt2{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_hlrt2.gif"); background-repeat:no-repeat; background-color:#eceef1; }
+td.v14-tab-hlrt-end2{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_hlrt_end2.gif"); background-repeat:no-repeat; background-color:#eceef1; }
+td.v14-tab-hllt2{ background-image:url("//www.lenovo.com/i/v15/tabs/tab_hllt2.gif"); background-repeat:no-repeat; background-color:#eceef1; }
+td.v14-tab-dmrt2{background-image:url("//www.lenovo.com/i/v15/tabs/tab_dmrt2.gif"); background-repeat:no-repeat; background-color:#e3e3e3; }
+td.v14-tab-dmrt-end2{background-image:url("//www.lenovo.com/i/v15/tabs/tab_dmrt_end2.gif"); background-repeat:no-repeat; background-color:#e3e3e3; }
+
+
+*/
+.bbg{ border-top:4px solid #c9d3dd; border-bottom:20px solid #fff; white-space:nowrap; padding-top:6px; }
+td.bbg span.spacer{ margin-left: -6px }
+.dbg{ background-color:#fff; }
+/*.mbg{ background-color:#c8d7e3; border-bottom:1px solid white; padding-left:4px; }*/
+th.mbg{ background-color:#98b1c4; border-bottom:1px solid white; padding-left:4px; }
+th.mbg a.nav:link{ color:#fff; }
+/*td.hil{ background-color:#fff; border-bottom:1px solid white; }*/
+th.hil{ background-color:#98b1c4; border-bottom:1px solid white; padding-left:4px; }
+th.hil a.nav:link{ color:#fff; }
+.hil{ background-color:#fff; padding-left:4px; }
+
+.lbg{ background-color:#eceef1; vertical-align:top; }
+
+
+/*td.left-nav-overview{ background:#c9d3dd; }*/
+
+/*td.left-nav-highlight{ background:#fff; vertical-align:top; }*/
+
+td.left-nav,
+td.left-nav-highlight,
+tr.left-nav-last td{ border-top:1px solid white; }
+
+
+/*tr.rlinks td{ vertical-align:top; }*/
+
+/*a.rlinks:link{ text-decoration:none; color:#069; }*/
+/*a.rlinks:hover{ text-decoration:underline; color:#999; }*/
+
+/*a.mainlink:link{ text-decoration:none; color:#069; white-space:nowrap; }*/
+/*a.mainlink:hover{ text-decoration:underline; color:#069; white-space:nowrap; }*/
+
+a.parent:link,
+a.parent:visited{ text-decoration:none; color:#069; }
+a.parent:hover{ text-decoration:underline; color:#999; }
+
+
+
+/*a.left-nav-overview:visited{ text-decoration:none; color:#069; }*/
+/*a.left-nav-overview:hover{ text-decoration:underline; color:#999; }*/
+
+/*a.left-nav:link{ text-decoration:none; color:#069; }*/
+/*a.left-nav:hover{ text-decoration:underline; color:#999; }*/
+
+
+/*a.nav:visited{ text-decoration:none; color:#069; }*/
+/*a.nav:hover{ text-decoration:underline; color:#999; }*/
+
+/*a.left-nav-child:link{ text-decoration:none; color:#069; }*/
+/*a.left-nav-child:hover{ text-decoration:underline; color:#999; }*/
+
+td.masthead-divider{ background-image:url(/ISS_Static/images/lenovo_common/css/masthead-divider.gif); background-repeat:no-repeat; background-position:50% 60%; }
+td.footer-divider{ background-image:url(/ISS_Static/images/lenovo_common/css/footer-divider.gif); background-repeat:no-repeat; background-position:50% 50%; }
+/*template classes*/
+
+/*body{ margin:0px; padding:0px; background:#fff; color:#000; }*/
+/*form{ margin:0px; padding:0px; }*/
+/*th{ text-align:left; }*/
+/*sup { color:#666; }*/
+/*fieldset{ border:0px; }*/
+
+.nowrap{ white-space:nowrap; }
+
+
+
+b.rlinks{ color:#666; }
+
+
+.greytext{ color:#666; }
+
+/*#v14-pop-mast h1{ color:#fff; background:#000; white-space:nowrap; }*/
+
+/*a:link{ color:#069; }*/
+/*a:visited{ color:#9a6a9a; }*/
+/*a:hover{ color:#999; }*/
+
+.tbgc{ background-color:#069; }
+.gbg,
+.lgray{ background-color:#ccc; }
+.bluebullet{ color:#069; }
+
+.dkgd{ background-color:#996; }
+
+
+/*.popup_title{ color:#fff; }*/
+/*.mdgd{ color:#663; background:#cc9; }*/
+.flgd{ background:#f7f7e7; }
+.dgbg{ background-color:#999; }
+
+/*a.pr-arial:link{ text-decoration:none; color:#069; }*/
+
+/*a.fbox:visited{ text-decoration:none; color:#9a6a9a; }*/
+
+/*a.fbox:hover{ text-decoration:underline; color:#999; }*/
+
+
+a.bctl:visited{ text-decoration:none; color:#069; }
+a.bctl:hover{ text-decoration:underline; color:#999; }
+
+/*.iform{ color:#000; }*/
+
+/*tabs*/
+.tbdark{background:#a3aab0; }
+.tbwhite{background:#fff; white-space:nowrap; }
+
+
+/*a.tbmainlink:visited{ text-decoration:none; color:#333; white-space:nowrap; }*/
+/*a.tbmainlink:hover{ text-decoration:underline; color:#999; white-space:nowrap; }*/
+
+/*a.tablink:link{ text-decoration:none; color:#333; }*/
+/*a.tablink:hover{ text-decoration:underline; color:#999; }*/
+
+/*a.tablinkblue:link{ text-decoration:none; }*/
+/*a.tablinkblue:hover{ text-decoration:underline; }*/
+
+
+/*a.texttabselectlink:visited{ text-decoration:none; color:#333; }*/
+/*a.texttabselectlink:hover{ text-decoration:underline; color:#999; }*/
+
+/*a.toclink:link{ text-decoration:none; }*/
+/*a.toclink:hover{ text-decoration:underline; }*/
+
+
+/*a.tocselectlink:visited{ text-decoration:none; color:#333; }*/
+/*a.tocselectlink:hover{ text-decoration:underline; color:#999; }*/
+
+.v14-graphic-tab-selected{ background-color:#eceef1; white-space:nowrap; }
+.v14-graphic-tab-selected2{ background-color:#eceef1; white-space:nowrap; }
+.v14-graphic-tab-lblue-table{ background-color:#eceef1; vertical-align:top; }
+
+.v14-ttd{ color:#98b1c4; }
+.v14-graphic-tab-dblue-table{ background:#eceef1; }
+
+/*a.v14-tab-link-selected:link { text-decoration:none; color:#069; background-color:#eceef1; }*/
+/*a.v14-tab-link-selected:hover { text-decoration:none; color:#999; background-color:#eceef1; }*/
+
+
+/*a.v14-tab-link-unselected:visited { text-decoration:none; color:#069; background-color:#e3e3e3; }*/
+/*a.v14-tab-link-unselected:hover { text-decoration:none; color:#999; background-color:#e3e3e3; }*/
+
+/*a.v14-text-tab-select-link:link{ text-decoration:none; color:#069; }*/
+/*a.v14-text-tab-select-link:hover{ text-decoration:underline; color:#999; }*/
+
+/*a.v14-text-tab-unselect-link:link{ text-decoration:none; color:#069; }*/
+/*a.v14-text-tab-unselect-link:hover{ text-decoration:underline; color:#999; }*/
+/*tabs*/
+
+/*.tblue{ color:#666; background:#e3e3e3; }*/
+/*.tdblue{ color:#666; background:#e3e3e3; }*/
+/*.tgray{ color:#666; background:#e3e3e3; }*/
+/*.tgreen{ color:#666; background:#eee; border:#e3e3e3 solid 1px; }*/
+/*.medbluetitlebar{ color:#666; background-color:#e3e3e3; }*/
+/*.medgraytitlebar{ color:#666; background-color:#e3e3e3; }*/
+/*.lightgraytitlebar{ color:#666; background-color:#e3e3e3; }*/
+/*.whitetitlebar{ color:#666; background-color:#e3e3e3; }*/
+/*.subtitle{ color:#666; }*/
+
+/*td.v14-header-1{ color:#666; background:#e3e3e3; }*/
+
+
+/*th.v14-header-1-small{ color:#666; background:#e3e3e3; }*/
+
+/*td.v14-header-3{ color:#666; background:#e3e3e3; }*/
+
+
+/*th.v14-header-3-small{ color:#666; background:#e3e3e3; border:#e3e3e3 solid 1px; }*/
+
+
+/*th.v14-header-4-small{ border:#e3e3e3 solid 1px; color:#666; background:#fff; }*/
+
+
+/*th.v14-header-5-small{ color:#666; background:#e3e3e3; }*/
+
+/*td.gradient_bar { background-image:url(/ISS_Static/images/lenovo_common/css/gradient_bar.gif); background-repeat:repeat-y; background-position:100% 100%; color:#666; }*/
+
+/*.price{ color:#f60; }*/
+/*.error{ color:#f00; }*/
+em.error,
+em.caution{ font-style:normal; }
+
+
+
+/*.lggraytitle{ color:#666; }*/
+
+
+/*.divider{ color:#999; }*/
+/*.bct{ color:#000; }*/
+.ast{ color:#f30; }
+.dgray{ background-color:#999; }
+.vlgray{ background-color:#eee; }
+/*.iformwh{ color:#000; background:#fff; }*/
+/*.tvgray{ color:#000; background:#eee; }*/
+
+/*a.bs:link{ text-decoration:none; color:#069; }*/
+/*a.bs:visited{ text-decoration:none; color:#969; }*/
+/*a.bs:hover{ text-decoration:underline; color:#999; }*/
+
+
+
+/*a.close:hover{ text-decoration:underline; color:#fff; }*/
+
+.dotted{ background-color:#fff; background-image:url(/ISS_Static/images/lenovo_common/css/dotted.gif); }
+
+.ibmSurveyCVM .v14-header-2-small { color:#fff !important; background:#999 !important; }
+.ibmSurveyCVM .no-padding { background-color:#ffc !important; }
+.ibmSurveyCVM .smallplainlink { color:#666 !important; }
+
+.td-vert-grad226{ background-image:url(/ISS_Static/images/lenovo_common/css/vertical_rule_1x226.gif); background-position:center; background-repeat:no-repeat; width:21px; }
+.th-bkg-grad { background-image:url(/ISS_Static/images/lenovo_common/css/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; height:31px; }
+.td-bkg-grad { background-image:url(/ISS_Static/images/lenovo_common/css/tablerowgrey.gif); background-repeat:repeat-x; background-position:center; padding-top:5px; padding-bottom:5px; }
+.td-bkg-nograd { padding-top:5px; padding-bottom:5px; }
+.td-bkg-short-blue { background-image:url(/ISS_Static/images/lenovo_common/css/gradshortblue.gif); background-repeat:repeat-x; }
+.td-bkg-tall-blue { background-image:url(/ISS_Static/images/lenovo_common/css/gradtallblue.gif); background-repeat:repeat-x; }
+.td-bkg-short-gray { background-image:url(/ISS_Static/images/lenovo_common/css/gradshortgray.gif); background-repeat:repeat-x; }
+.td-bkg-tall-gray { background-image:url(/ISS_Static/images/lenovo_common/css/gradtallgray.gif); background-repeat:repeat-x; }
+
+/*.blueBullet{ color:#069; vertical-align:top; }*/
+/*.pheader{ text-decoration:none; }*/
+/*.subhead15B{ color:#999; font-family:Arial, Helvetica, sans-serif; font-weight:bold; }*/
+.greydividerpadded{ background-image:url(/ISS_Static/images/lenovo_common/css/grey.gif); background-repeat:repeat-y; background-position:center; width:21px; }
+/*.newsinnovation{ color:#f93; }*/
+/*.heading{ color:#848589; }*/
+
+
+/* hightech layout elements */
+/*.splitter-header { color:#21363f; font-size:20px;  WHITE-SPACE: nowrap; padding-left:9px; padding-top:0px ;padding-bottom:10px; }*/
+.splitter-header-gradient { font-family: "Helvetica Neue 65",Helvetica,sans-serif; font-size: 18px; font-weight: lighter; color: #333333; text-align: left; padding-left: 10px; height: 20px; background-color: transparent; background-image: url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/bg-content-btm-gradient_1x15.gif); background-repeat: repeat-x; background-attachment: scroll; background-position: 0% 0%;}
+.splitter-header { font-family:"Helvetica Neue 45 Light", Helvetica ; }
+/*.facetTitle      { font-family:Verdana Bold; padding-left:10px; padding-top: 8px ; color: #666666}*/
+.facetCriteriaSelected,
+.facetCriteria   { font-family:Verdana ; padding-left:10px; padding-top: 4px ; color: #006699}
+.facetCriteriaSelected { margin-left:10px }
+.facetTable      { width:215px; height: 100%; background-color: #ffffff}
+/*.facetDivider { background-color: #ffffff}*/
+
+.search-splitter-header { font-family:"Helvetica Neue 45 Light", Helvetica ; color:#21363f; font-size:16px;  WHITE-SPACE: nowrap; padding-left:9px; padding-top:0px ;padding-bottom:10px; }
+.search-splitter-header-gradient { font-family: "Helvetica Neue 65",Helvetica,sans-serif; font-size: 18px; font-weight: lighter; color: #333333; text-align: left; padding-left: 10px; height: 20px; background-color: transparent; background-image: url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/bg-content-btm-gradient_1x15.gif); background-repeat: repeat-x; background-attachment: scroll; background-position: 0% 0%;}
+/*.searchFacetTitle      { font-family:Verdana Bold; padding-left:10px; padding-top: 15px ; color: #666666; }*/
+/*.searchFacetFirstTitle      { font-family:Verdana Bold; padding-top:5px; padding-left:10px; color: #666666; }*/
+
+/*.searchFacetCriteria   { font-family:Verdana ; padding-left:30px; padding-top: 2px ; color: #006699}*/
+/*.searchFacetCatalog { font-family:Verdana ; background-color:#e7ebef; font-weight: bold; color: #333333; text-align: left; height:20px;}*/
+/*.searchFacetCatalogPadder { padding-top:5px;}*/
+/*.searchResultKeyword { padding-top:10px; padding-left:10px; padding-bottom:5px;}*/
+
+.searchFacetCriteriaSelected { margin-left:10px; vertical-align:middle; }
+/*.searchFacetTable      {  height: 100%; background-color: #ffffff; border-left:solid 1px #c9d3dd; border-right:solid 1px #c9d3dd; border-bottom:solid 1px #c9d3dd;}*/
+/*.searchDivider { padding-top:8px;padding-bottom:8px; padding-left:10px; padding-right:10px; }*/
+/*.searchDividerSelected {}*/
+/*.searchSelectedFacetsTable {background-color:#e7ebef}*/
+/*.selectedFacetsTableWrapper { }*/
+/*.selectedFacetsTable { background-color:#e3e8ee }*/
+/*.searchTableSeparator { width:100%; background-color:#e7ebef; }*/
+/*.searchResultsTableHeader {background-color:#e7ebef; padding:10px;}*/
+/*.searchResultsTableFooter {background-color:#e7ebef; height:40px; padding-right:10px;}*/
+/*.searchResultsDidYouMean { padding-left:10px; padding-top:20px; padding-bottom:10px; padding-right:10px; }*/
+/*.facetKeyword { font-family:Verdana; color: #000000; padding-left:10px; padding-top:5px; }*/
+/*.grey-dashes { border-top: 1px dashed #cccccc; margin-left:10px; margin-right:10px; margin-top:6px; }*/
+
+ /*.search-undertabs-border {
+   border-left:solid 1px #c9d3dd;
+   border-right:solid 1px #c9d3dd;
+   border-bottom:solid 1px #c9d3dd;
+   border-top:solid 1px #c9d3dd;
+ }*/
+
+a.result-link:link {
+text-decoration:none;
+color:#069;
+font-weight:normal;
+}
+
+a.result-link:visited {
+text-decoration:none;
+color:#069;
+font-weight:normal;
+}
+
+a.result-link:hover {
+text-decoration:underline;
+color:#069;
+font-weight:normal;
+}
+
+a.boldplainlink:link{ font-weight:bold; text-decoration:none; color:#069; }
+a.boldplainlink:visited{ font-weight:bold; text-decoration:none; color:#9a6a9a; }
+a.boldplainlink:hover{ font-weight:bold; text-decoration:underline; color:#999; }
+
+a.plainimagelink:link{ text-decoration:none; }
+a.plainimagelink:visited{ text-decoration:none; }
+a.plainimagelink:hover{ text-decoration:none; }
+
+.catalogMenuTitle { font-family:"Helvetica Neue 45 Light", Helvetica; font-size: 14px; font-weight:bold; margin-bottom:10px; padding-bottom:15px }
+.catalogMenuSubtitle { font-family: verdana,arial,sans-serif; font-size: 11px}
+.catalogMenuBlue { font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; color:#006699;}
+.catalogMenuDivider {padding-top:8px;padding-bottom:8px; padding-left:2px; padding-right:2px;}
+.catalogNoItems { height: 80px; text-align:center; font-family: Arial,Helvetica,sans-serif; font-size: 14px; font-weight: bold; color:#006699; }
+.catalogCompatibleOrBlock { padding-top:10;padding-bottom:10; padding-left:40px !important;}
+.catalogCompatibleOrBlock { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666;  }
+
+.catalogBlue { background-color: #c9d3dd }
+.feature-title,
+.feature-title-cell,
+.feature-title-cell-top { font-family:Verdana Bold; color: #666666}
+.feature-title-cell { padding-top: 5px; padding-bottom: 5px; vertical-align: bottom }
+.feature-title-cell-top { padding-top: 5px; padding-bottom: 5px; vertical-align: top }
+
+/*.bodyContent { border-left: 10px solid #c9d3dd; border-right: 10px solid #c9d3dd; border-bottom: 7px solid #c9d3dd; width: 960px}*/
+/*.bodyContentBottomGradient { background: url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/bg-content-btm-gradient_1x15.gif) }*/
+.bodyContentTopGradient { height:15px; background: url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/page-title-gradient_1x55.gif) repeat-x }
+/*.navHeader { border-left: 10px solid #c9d3dd; border-right: 10px solid #c9d3dd; width: 960px; }*/
+.breadCrumbArea { width: 960px; background-color: #c9d3dd }
+
+.topL {
+  height: 17px;
+  width: 20px;
+  background-image: url(/ISS_Static/images/lenovo_common/css/btmboxes-R5/transparent-pngs/btmbox-upperleft_20x17.png);
+  background-repeat: no-repeat;
+  background-position: top left }
+
+.topR {
+  height: 17px;
+  width: 20px;
+  background-image: url(/ISS_Static/images/lenovo_common/css/btmboxes-R5/btmbox-upperright_20x17.png);
+  background-repeat: no-repeat;
+  background-position: top right }
+
+.topC {
+  height: 17px;
+  background-image: url(/ISS_Static/images/lenovo_common/css/btmboxes-R5/transparent-pngs/btmbox-top_1x17.png);
+  background-repeat: repeat-x;
+  background-position: top  }
+
+.topCblue {
+  height: 17px;
+  background-image: url(/ISS_Static/images/lenovo_common/css/btmboxes-R5/btmbox-top_1x17_blue.png);
+  background-repeat: repeat-x;
+  background-position: top  }
+
+.topRblue {
+  height: 17px;
+  width: 10px;
+  background-image: url(/ISS_Static/images/lenovo_common/css/btmboxes-R5/btmbox-upperright_10x17_blue.png);
+  background-repeat: no-repeat;
+  background-position: top right }
+
+.compactTable {
+ border-spacing: 0px;
+ border-width: 0px;
+ }
+
+table.compactTable td {
+ padding: 0px;
+}
+
+.featurelist-topleft-corner-td {
+background-image: url(/ISS_Static/images/lenovo_common/icons/top_left_bluetowhite_corner.jpg);
+background-repeat: no-repeat;
+}
+
+.compare-topright-corner-td {
+font-family:Verdana Bold;
+color: #666666;
+padding-top: 5px;
+padding-bottom: 5px;
+vertical-align: bottom;
+background-image: url(/ISS_Static/images/lenovo_common/icons/right_bluetoblue_corner.jpg);
+background-repeat: no-repeat;
+background-position: top right
+}
+
+.comparelist-topright-corner {
+background-image: url(/ISS_Static/images/lenovo_common/css/splitter-R5/splitter_blue-corner_9x9.png);
+background-repeat: no-repeat;
+background-position: top right
+}
+
+.facet-header {
+color:#999999;
+font-size:14px;
+text-decoration:none;
+font-weight:bold;
+font-family:'Helvetica Neue 65 Bold', Helvetica, sans-serif;
+padding-left:10px;
+padding-top:2px;
+padding-bottom:5px;
+}
+
+/*.categorySideContentArea { background-color: #c9d3dd }*/
+.categorySideContentAreaInner { padding-left:10px; background-color: #ffffff }
+.top10list {text-indent: -1.4em; margin-left: 1.4em}
+.menuArea { padding-top:10px}
+.menuAreaContainer { border-top-width: 0px; background-color: #ffffff;}
+.catalogWhite { background-color: #ffffff }
+.promoAddToCart { padding-top: 10px; padding-bottom: 10px; margin-right:50px; vertical-align:middle; font-size:14px; font-weight: bold; font-family: Arial,Helvetica,sans-serif;}
+.promoAddToCartRow { height:29px; background-color: #c9d3dd; padding-right:10px }
+
+.promoListRow { padding:10px; margin-top:10px; margin-bottom:10px }
+.promoListPriceTd { width: 160px; padding-left:20px; padding-right:10px }
+.promoListImgTd  { vertical-align:top; padding-top:10px; padding-left: 10px; padding-bottom:5px }
+.promoListNameTd  {  }
+.promoListCodeTd  { padding-top:10px; }
+.promoListDescriptionTd { padding-top:5px; }
+.promoListDetailsLinkTd { padding-bottom:5px; vertical-align: middle }
+.promoListRightCol { background-color: #c9d3dd ; padding-left: 5px}
+.promoAddToCartCheckbox { vertical-align: top; text-align: center; padding-top:7px; width:21px ; background-color: #c9d3dd}
+
+.promoSpecCell {  vertical-align: top; padding-right:10px }
+.promoItemsButtonCell,
+.promoItemsCell {padding-left:5px; padding-right:10px}
+.promoItemsButtonCell {padding-top:10px;}
+
+.promoItemsTableCell {padding-left:5px;}
+/*  .promoItemsTable {padding-left:10px; } */
+.promoMoreDetails { vertical-align: middle }
+.specialOfferTableTitle { padding-left: 5px; padding-top:5px;padding-bottom:5px;padding-right:5px}
+.specialOfferTableTitleHigh,
+.specialOfferTableTitleHighBold
+ { padding-left: 5px; padding-top:10px; padding-bottom:10px; padding-right:5px}
+.specialOfferTableTitleHighBold { font-weight: bold }
+
+.cartProgram1Text { color:#f60; padding-left:20px; font-family: verdana,arial,sans-serif; font-weight: bold; font-size: 11px; }
+
+.homePriceListCell { padding-left:5px; padding-bottom:8px }
+
+
+.std-menu-header1 { padding-top: 5px; padding-bottom: 3px; font-family: Verdana,Helvetica,sans-serif; font-size: 18px; color: #333333; text-align: left; padding-left: 0px; height: 20px; background-color: transparent; WHITE-SPACE: nowrap}
+.std-menu-header2 { padding-top: 3px; padding-bottom: 3px;font-family: Verdana,Helvetica,sans-serif; font-size: 13px; font-weight:bold; color: #333333; text-align: left; padding-left: 0px; height: 20px; background-color: #eaeaea; border-top: 1px solid #c0c0c0}
+.std-menu-container { border-left: 1px  solid #d2d2d2;border-right: 1px  solid #d2d2d2;border-bottom: 1px  solid #d2d2d2; }
+#StdMenuDiv { margin-bottom: 10px; border-left: 1px solid #d2d2d2; border-right: 1px solid #d2d2d2; border-bottom: 1px solid #d2d2d2 ; vertical-align: top; width:190px}
+#StdMenuDiv .menu-item { padding-left: 10px ; padding-top: 3px; padding-bottom: 3px;}
+#StdMenuDiv .menu-item-selected { padding-left: 10px ; padding-top: 3px; padding-bottom: 3px; font-weight:bold }
+#StdMenuDiv .menu-item-selected a { font-weight:bold }
+#StdMenuDivTable TD  { padding-left: 5px }
+.le-facet-rowpicker { background-color: #eaeaea; padding:3px; }
+.le-facet-titlerow { background-color: #eaeaea; padding:3px; }
+/*.le-facet-divider { display:none; }*/
+.le-facet-std-menu-header1 { padding-top: 5px; padding-bottom: 3px; font-family: Verdana,Helvetica,sans-serif; font-size: 18px; color: #333333; text-align: left; padding-left: 0px; height: 20px; background-color: transparent; WHITE-SPACE: nowrap;}
+.le-facet-std-menu-header2 { padding-top: 3px; padding-bottom: 3px; font-family: Verdana,Helvetica,sans-serif; font-size: 13px; font-weight:bold; color: #333333; text-align: left; padding-left: 0px; height: 20px; background-color: #eaeaea; border-top: 1px solid #c0c0c0; }
+
+/*#home_leftmenu { }*/
+#home_welcome { padding-bottom: 5px }
+#home_configs { margin-left: 10px; padding-left:10px}
+#home_rightcolumn_resources { width: 160px; border-left: 1px solid #cccccc }
+
+.std-item-list-title { padding-left: 10px; border-top: 1px solid #c0c0c0 }
+.std-item-list-title { background-image:url(/ISS_Static/images/lenovo_common/css/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; padding-top:5px; padding-bottom:5px; }
+.std-item-list-title-text { font-size: 14px; font-weight:bold; }
+.std-item-list-customdesc { color: #659a00 }
+.std-item-desc-cell { padding-left:10px; padding-bottom:8px; }
+
+.std-home-title { padding-top: 10px; padding-bottom: 10px; font-size: 18px; color: #808080; text-align: left; padding-left: 0px; height: 20px; background-color: transparent; WHITE-SPACE: nowrap}
+.std-home-title {color:#999999; font-size:14px; font-weight:bold; font-family:'Helvetica Neue 65 Bold', Helvetica, sans-serif; }
+.std-home-description { padding-right: 10px; padding-top: 5px; padding-bottom: 15px; font-size: 12px; color: #333333; text-align: left; }
+.std-home-button { padding-top: 10px; padding-bottom: 3px; font-family: Verdana,Helvetica,sans-serif; font-size: 14px; color: #333333; text-align: left; padding-left: 0px; height: 20px; background-color: transparent; WHITE-SPACE: nowrap}
+.std-home-button-img { height:20px; width:155px; color:white; font: Arial; font-size:10px; font-weight:bold }
+.std-home-link { padding-top: 15px; padding-bottom: 3px; font-family: Verdana,Helvetica,sans-serif; font-size: 14px; color: #333333; text-align: left; padding-left: 0px; padding-right: 8px; height: 20px; background-color: transparent; white-space: nowrap; vertical-align: middle }
+.std-home-link a { vertical-align: middle }
+.std-home-link img { vertical-align: middle }
+.std-home-bottom-resources-title { padding-top: 2px; padding-bottom: 2px; padding-left: 10px; font-size:18px; color: #000000; }
+.std-home-bottom-resources-bkg-grad { background-image:url(/ISS_Static/images/lenovo_common/css/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; height:31px; }
+.std-home-bottom-resources-image-td { width: 70px; text-align: center;}
+.std-home-bottom-resources-td { padding-left: 10px; padding-right: 10px; width: 230px; text-align: left; }
+.std-home-img-line { background-image: url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/products-row1-bg.jpg); background-repeat: repeat-x; background-position: top }
+
+.itemDetailsPopupContainer { width:100%;}
+.itemDetailsPopupImg {   }
+.itemDetailsPopupPrice { position:absolute; right:15px }
+.itemDetailsPopupTitle { font-size: 14px; font-weight: bold; font-family: Verdana,Helvetica; padding-bottom: 5px }
+.itemDetailsPopupData {  padding-left: 10px; vertical-align:top; margin-left:20px; }
+.itemDetailsPopupData TD { padding-bottom: 3px; }
+.itemDetailsPopupBottom { bottom:0px; }
+.std-item-list-bullets {  font-size: 9px; padding:2px; }
+.item-details-item-desc { font-size: 12px; font-weight: bold; }
+
+.std-bullet-list-wrapper {
+  margin: 0em;
+  padding: 0px;
+}
+.std-bullet-list {
+  list-style-type:none;
+  padding-left:0px;
+  margin-left:0px;
+}
+.std-bullet-list-line {
+  background-image: url(/ISS_Static/images/lenovo_common/css/bullet-grey-transparent.gif);
+  background-repeat: no-repeat; background-position: 0em .4em;
+  padding-left: 1em;
+  }
+
+.std-menu-container .qbTable TD { padding-left: 5px;}
+
+/*.gradient-divider-btm-up {
+margin:0px;
+background:url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/divider-gradient_btm-up_1x14.gif) repeat-x left bottom;
+}*/
+.stdHomeImgLine { background-image: url(/ISS_Static/images/lenovo_common/css/backgrounds-R5/products-row1-bg.jpg); background-repeat: repeat-x; background-position: top }
+.stdItemListTitle { background-image:url(/ISS_Static/images/lenovo_common/css/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; padding-top:5px; padding-bottom:5px; }
+
+.std-home-bottom-resources-bkg-grad { background-image:url(/ISS_Static/images/lenovo_common/css/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; height:31px; }
+
+/*
+.std-bullet-list-wrapper ul { vertical-align:middle; line-height:1.5em; margin-left: 8; padding-left: 8; list-style-image: url(/ISS_Static/images/lenovo_common/css/bullet-grey-transparent.gif); }
+.std-bullet-list-line { vertical-align:middle; margin-bottom:4px; }
+*/
+.le-dividerSelected {padding-left:10px; padding-right:10px;}
+.le-selectedFacetsTable { width:100%; background-color:#e3e8ee; }
+.le-dividerMain { padding-top:8px; padding-left:10px; padding-right:10px; }
+.le-facet-selectionpadder { width:100%; background-color:#e3e8ee; }
+
+/* SD 44066 */
+.preSearchWrapper { position:relative; width:100%; padding-top:0px; font-family:verdana,arial,sans-serif; font-size:7px; }
+.preSearchContent { position:absolute; display:none; top:2px; padding:3px; width:150px; background-color:#ffffff; z-index:100; font-family:verdana,arial,sans-serif; font-size:7px; }
+/* END SD 44066 */
+
+/* IE fix for Shopping Cart lower empty button alignment issue */
+#cartButtonEmpty .basebuttonnobg { _padding-left:6px; }
+
+.cartLink {
+vertical-align: middle;
+color: #036;
+}
+
+.cartColoredHeaderTable{
+background-image:url(/SEUILibrary/lenovo-portal/images/cart/tableheadergrad.gif);
+background-repeat: repeat-x;  
+}
+
+.cartColoredHeaderCell {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/bluegradient_1x20.gif);
+background-repeat: repeat-x;
+white-space: nowrap;
+}
+
+.cartColoredHeaderCell span {
+font-weight: bold;
+}
+
+.cartPriceDivider {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/divider_259x1.gif);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#cart-content #cctSplitter {
+background-image: none;
+}
+
+.cartContentDetailsTabSpacer {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/spacer_background.gif);
+background-repeat: repeat-x;
+}
+
+.selectTabLeftCell {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/select_left.gif);
+background-repeat: no-repeat;
+background-position-x: right;
+}
+.selectTabCell {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/select_background.gif);
+background-repeat: repeat-x;
+
+}
+.selectTabRightCell {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/select_right.gif);
+background-repeat: no-repeat;
+background-position-x: left;
+}
+
+.unselectTabLeftCell {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/unselect_left.gif);
+background-repeat: no-repeat;
+background-position-x: right;
+}
+.unselectTabCell { 
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/unselect_background.gif);
+background-repeat: repeat-x;
+}
+.unselectTabRightCell {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/unselect_right.gif);
+background-repeat: no-repeat;
+background-position-x: left;
+}
+
+.emptyTabCell { 
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/spacer_background.gif);
+background-repeat: repeat-x;
+}
+
+.selectTabText span {
+color: #000000;
+font-weight: bold;
+}
+.unselectTabText span {
+font-weight: bold;
+}
+
+.selectTabIcon {
+height: 16px; 
+width: 8px; 
+}
+
+.unselectTabIcon {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/fw_bold.gif);
+background-repeat: no-repeat;
+height: 16px;
+width: 16px;
+}
+
+.cartContentItemDiver {
+background-image: url(/SEUILibrary/lenovo-portal/images/cart/grey_rule.gif);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.headerShadow {
+background-image:none;
+}
+
+.cartMainFeatureIcon div {
+background-image:url(/SEUILibrary/lenovo-portal/images/cart/fw.gif);
+background-repeat: no-repeat;
+height: 16px;
+width: 16px;
+}
+
+#cartEmailHeader, #cartDetailsHeader {
+  background-image:url(/SEUILibrary/lenovo-portal/images/mh-grad-v16.gif);
+  background-repeat:repeat-y,repeat-x;
+}
+
+.configEditIcon {
+  background-image:url(/SEUILibrary/lenovo-portal/images/icons/fw_bold.gif);
+  background-repeat:no-repeat; 
+  height:16px; 
+  width:16px; 
+}
+
+.greyBackgroundGradient { background-image: url(/SEUILibrary/lenovo-portal/images/cons/grey_gradient_background_1x80.gif); background-repeat: repeat-x;}
+
+/* My Account - Sign In */
+/*.loginCenterBackGradient{
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/gradlightblue.gif);
+  background-repeat:repeat-x;
+}*/
+
+/* Webform pages */
+.webFormSectionHeader {
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/subhead_grad.gif);
+  background-repeat: repeat-x;
+  font-weight:bold;
+}
+
+/* LE Login page */
+.leLoginBackGradient{
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/gradlightblue.gif);
+  background-repeat:repeat-x;
+}
+
+
+/* Checkout pages - Sign In*/
+.blackText {color:#000000;}
+.signInHeaderDesc { font-weight:bold; }
+
+/* Checkout pages - page1*/
+.checkoutNavigation {
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/widestepsbkg.gif);
+}
+.checkoutNavigationSelectedStep {
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/stepsCircleSel.gif);
+  background-position:center; 
+  background-repeat:no-repeat;
+}
+.checkoutNavigationSelectedStep span{
+  color: #000000;
+}
+.checkoutNavigationUnselectedStep {
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/stepsCircleNoSel.gif);
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.checkoutNavigationUnselectedStep span{
+  color:#666;
+}
+.checkoutNavigationSelectedStepHdr {font-weight:bold; color:#000000; text-decoration:none; }
+.checkoutNavigationUnselectedStepHdr {color:#666;}
+.checkoutSubHead {
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/subhead_grad.gif);
+  font-weight:bold;
+}
+
+#checkoutForm { border:0px; padding:0px; margin:0px; }
+
+/*checkout2_layout*/
+.shipGroupsInfo {font-weight:bold;}
+
+/*checkout2_order_fields*/
+.subHeadText {
+  font-weight:bold;
+}
+.checkout2SubHead { background-image:url(/SEUILibrary/hightech-portal/images/cart/bluegradient_1x20.gif); 
+  background-repeat:repeat-x;
+  font-weight:bold;
+}
+
+/*checkout2_shipment_and_payment*/
+.checkout2PaypalSlogan { font-size:11px;
+  font-family: Arial, Verdana; 
+}
+.bmlPromo{ color:#666; }
+
+/*checkout2_credit_card*/
+.dividerLine {background-color: #c9d3dd;}
+
+/*checkout2_price*/
+.checkout2CartSalePrice { color:#FF6600; }
+.checkout2CartSubtotal { color:#FF6600; }
+.checkout2CartVATLine2 { color:#FF6600; }
+.checkout2CartThresholdSavings { color:#FF6600; }
+.checkout2CartCouponDiscount { color:#FF6600; }
+.checkout2CartTotal { font-weight:bold; }
+.checkout2CartSiteSavings { color:#FF6600; }
+.checkout2CartLease { font-weight:bold; }
+
+/*checkout3_layout*/
+.boldLabel { font-weight:bold; }
+#hiddenEmailFrame{display: none;}
+
+/*floating popup*/
+#floatingPopupDimmerLayer { 
+  display: none;
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  filter: alpha (opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+#floatingPopupWrapper {
+  display:none;
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 199;
+}
+#floatingPopuplayer { 
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:199;
+}
+.floatingPopupUpperEdge {
+  background-image:url(data:image/gif;base64,R0lGODlhAQAPAPcAACEpOefv9+/v9+/39/f3/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEAAAAALAAAAAABAA8AAAgPAAEIDBBAwAACBRIqLBAQADs=);
+  *background-image:url(/SEUILibrary/hightech-portal/images/icons/upperedge-box-1x15.gif); 
+  background-repeat:repeat-x;
+}
+.floatingPopupLeftEdge {
+  background-image: url(data:image/gif;base64,R0lGODlhBAABAPcAACEpOf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEAAAAALAAAAAAEAAEAAAgGAAEIBBAQADs=);
+  *background-image:url(/SEUILibrary/hightech-portal/images/icons/leftedge-side-box-4x1.gif); 
+  background-repeat:repeat-y;
+}
+.floatingPopupBoxGradient {
+  background-color:white;
+  background-image:url(data:image/gif;base64,R0lGODlhAQAYAeYAAPr7/P7+/tfe5v39/uHn7fz9/dHa49DZ4uvv89zj6tff5/X3+efs8crU3vDz9tbe5vP1+Pf4+uzw9OLo7trh6dPc5M3X4Pz8/d/m7Njg6O7x9c7X4dTc5ff5+vv8/fb4+vL19/j6+/T2+Nvi6e/y9c/Y4fn6+93k6/H09+br8MvV3/j5++ru8v7+/+3x9dri6cvV3tnh6Pn6/ODm7ePo7ePp7vb4+czW3+/z9tng5+Tq7+7y9ejt8unt8vL09+vu8vT2+eXq8NTd5c3W4MzW4Nng6N7k69Pb5ODm7Ofr8N/l6+Xq7+Xr8Pv8/O3x9PT3+ePo7tjg5+/y9vP2+NXd5tvi6tLb5Ojs8dXd5erv8+Tp7+ru89Xe5vP19+3w9M/Z4v7//8zV3/v7/P3+/t/l7OPp7+nu8t7l7NLb497l687Y4ejt8f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAABABgBAAe0gGyCg4SFhoeIiYqLhQKOAjkjSjRJPyRdEQADjJyMYC0BoQFjA6UFpxcXHh5NYgCvADImJiEhKysdHREfHzYLv09AIiJTEBAgID4oKA7NOFIkOxoaLk5eEhII2llbLGY9PGtXDOQpKUxBSzpaZTVQExME8jNIGBhkZ2lGJycJ/lUjXlCgEKNIhgxRFCh88IALFSxCOHCoUOGIFTQGMh7Y+KVECTUbNliwMITIjTAqVMBowDIQADs=);
+  *background-image:url(/SEUILibrary/hightech-portal/images/icons/box-gradient-bkgd-1x280.gif);
+  background-repeat:repeat-x;
+}
+.floatingPopupRightEdge { 
+  background-image:url(data:image/gif;base64,R0lGODlhBgABAPcAACEpOf///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEAAAAALAAAAAAGAAEAAAgGAAEIHBgQADs=);
+  *background-image:url(/SEUILibrary/hightech-portal/images/icons/rightedge-side-box-6x1.gif); 
+  background-repeat:repeat-y;
+}
+.floatingPopupLowerEdge {
+  background-image:url(data:image/gif;base64,R0lGODlhAQAPAPcAACEpOaWtva21vbW9xr3GzsbO1s7W3v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEAAAAALAAAAAABAA8AAAgPAA0ILEBggIAAABIqBBAQADs=);
+  *background-image:url(/SEUILibrary/hightech-portal/images/icons/loweredge-box-1x15.gif);
+  background-repeat:repeat-x;
+}
+.bgBlueGradient {
+  background-image:url(data:image/gif;base64,R0lGODlhAwEUAMQAAMvW4fv8/eru89zk6/b4+ubs8f3+/vH099Xe583Y4tDa5MfT38nU4OPp7/n6/O3x9eDm7fT2+dLc5tnh6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAADARQAAAX/4CKOZGmeaKqubOu+cCzPdG2bTK7vfO//wKBwSCwaj8ikcsls9gDQqHRKrVqv2Kx2y+16v+CweEymJs7otHrNbrvf8Lh8Tq/b7/i8fr9W+P+AgYKDhIWGh4iJiouMjY6PkJGSghKVlpeYmZqbnJ2en6ChoqOkpaanqKmZCKytrq+wsbKztLW2t7i5uru8vb6/wLATw8TFxsfIycrLzM3Oz9DR0tPU1dbXxwPa29zd3t/g4eLj5OXm5+jp6uvs7e7eEPHy8/T19vf4+fr7/P3+/wADChxIsGC9BggTKlzIsKHDhxAjSpxIsaLFixgzatzIkWGBjyBDihxJsqTJkyhT3apcybKly5cwY8qcOVKAzZs4c+rcybOnz59AgwodSrSo0aNIkyrV+aCp06dQo0qdSrWq1atYs2rdyrWr169gw0Y9QLas2bNo06pdy7at27dw48qdS7eu3bt40UbYy7ev37+AAwseTLiw4cOIEytezLix48d/CUieTLmy5cuYM2vezLmz58+gQ4seTbq0acsOUqtezbq169ewY8ueTbu27du4c+vezbt36wDAgwsfTry48ePIkytfzry58+fQo0ufTp24gevYs2vfzr279+/gw4sfT768+fPo06tfvz0EADs=);
+  *background-image:url(/SEUILibrary/hightech-portal/images/icons/bluegradient_1x20.gif);
+  background-repeat:repeat-x;
+}
+.floatingPopupBackground {background-color:white;}
+
+/*order email*/
+.orderEmailCartPrice { font-weight:bold; }
+
+/*view_pending_order_layout*/
+.navTablePosition {vertical-align:top;}
+.midCopyHeaderText { color:#666; }
+.pendingOrderHeader { background-image:url(/SEUILibrary/hightech-portal/images/icons/widestepsbkg.gif); }
+.pendingOrderSubHead { background-image:url(/SEUILibrary/hightech-portal/images/cart/bluegradient_1x20.gif); 
+  background-repeat:repeat-x;
+  font-weight:bold;
+}
+
+/*OrderStatusDetais_content_container*/
+.orderStatusDetailsForm { border: 0px none ; margin: 0px; padding: 0px; }
+.osdEmailHeaderLabel {font-size:110%;font-weight:bold;}
+.osdHeaderLabel {color:#FFFFFF; }
+.osdHeader { background-image:url(/SEUILibrary/hightech-portal/images/main-nav/black-bar-bkgrnd_1x31.gif);
+  background-repeat:repeat-x;
+  background-color: 3D"#000000";
+}
+.osdLineTotalCol {padding-right:5px;text-align: right;}
+.osdItemPriceCol {text-align: right;}
+.osdHeaderRowSeparator {background-color: black;}
+.osdInvoiceBg {background-image:url(/SEUILibrary/hightech-portal/images/cart/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; height:31px;}
+.osdLineTotal {font-weight:bold;}
+.osdEmailShipmentInfo {font-weight:bold;}
+.osdEmailShipPrice {font-weight:bold;}
+.osdEmailTotalTax {font-weight:bold;}
+.osdTotalLabel {color:#FFFFFF;background-color: black;}
+.osdEmailTotal {font-weight:bold;color:#FFFFFF;background-color: black;}
+
+.osdShipPriceLabel {border-bottom-width: 1px;  
+  border-bottom-color: #32649b; 
+  border-bottom-style: Solid;
+}
+.osdShipPrice {padding-left:18px; 
+  border-bottom-width: 1px;  
+  border-bottom-color: #32649b; 
+  border-bottom-style: Solid;
+  text-align: right;
+  font-weight:bold;
+}
+.osdTotalTaxLabel {border-bottom-width: 1px;  
+  border-bottom-color: #32649b; 
+  border-bottom-style: Solid;}
+.osdTotalTax {padding-left:18px;
+  border-bottom-width: 1px;  
+  border-bottom-color: #32649b; 
+  border-bottom-style: Solid;
+  text-align: right;
+  font-weight:bold;
+}
+.osdTotal {padding-left:18px; 
+  border-bottom-width: 1px;  
+  border-bottom-color: #32649b; 
+  border-bottom-style: Solid;
+  text-align: right;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color: black;
+}
+.osdPriceArea{border-left-width: 1px;  border-left-color: #32649b; border-left-style: Solid;
+  border-right-width: 1px;  border-right-color: #32649b; border-right-style: Solid;
+  border-bottom-width: 1px; border-bottom-color: #32649b; border-bottom-style: Solid;
+}
+.osdAreaDividerBg {background-color: #ccc;}
+.osdAdditionalInfoArea{height:100%; padding-bottom:10px; padding-left:8px;}
+.osdAddressArea{height:100%; padding-bottom:10px; padding-left:8px;}
+
+/*OrderList_container*/
+.orderListForm {border: 0px none ; margin: 0px; padding: 0px; }
+.orderListHeaderLabel {color:#FFFFFF; font-weight:bold;}
+.orderListHeader { background-image:url(/SEUILibrary/hightech-portal/images/main-nav/black-bar-bkgrnd_1x31.gif);
+  background-repeat:repeat-x;
+  background-color: 3D"#000000";
+}
+.orderListSubHead {
+  background-image:url(/SEUILibrary/hightech-portal/images/icons/subhead_grad.gif);
+  font-weight:bold;
+}
+.orderListTableHeader{background-image:url(/SEUILibrary/hightech-portal/images/cart/tableheadergrad.gif); background-repeat:repeat-x; background-position:center; height:31px;}
+.orderListRowDivider { background:#ccc; }
+.orderListLineItemSeparator {border: #808080; border-style: dotted ;}
+
+/*OrderSearch_container*/
+.orderSrchForm {border: 0px none ; margin: 0px; padding: 0px; }
+.orderSrchHdrBg {background-image:url(/SEUILibrary/hightech-portal/images/cart/tableheadergrad.gif); 
+  background-repeat:repeat-x; 
+  background-position:center; 
+  height:31px;
+}
+.orderSrchHdrTitle {padding-left:8px;font-weight:bold;}
+.orderSrchHdrDesc {padding-left:8px; padding-top:4px; padding-bottom:8px;font-weight:bold;}
+.orderSrchArea {padding-left:8px; width:450px;}
+.orderSrchSingleOrder {padding-left:20px;}
+.orderSrchDividerLine {border-top:#ccc 1px solid;}
+.orderSrchMultiOrderDesc {padding-left:8px; padding-top:4px; padding-bottom:8px;font-weight:bold;}
+.orderSrchMultiOrderArea {padding-left:8px; padding-top:4px; padding-bottom:8px;}
+
+/*OrderSearchList_container*/
+.orderSrchListArea {padding-left:8px;padding-bottom:8px;}
+.orderSrchListAreaSeparator {border-left: #ccc 1px solid;vertical-align:center;}
+.orderSrchListResultsArea {vertical-align:top;text-align:left;}
+.orderSrchListResultsHdrBg {background-color: #EFEFEF;}
+.orderSrchListResultsSortSel {background-color: #EFEFEF;}
+.orderSrchListResultsSortUnSel {background-color: #FFFFFF;}
+.orderSrchListResultsRowDivider {background-color: #ccc;}
+
+/*OrderSearchList_Pagination_container*/
+.orderSrchListPaginationHdrBg {background-image:url(/SEUILibrary/hightech-portal/images/cart/tableheadergrad.gif); 
+  background-repeat:repeat-x; 
+  background-position:center; 
+  height:31px;
+}
+.orderSrchListPaginationHdrText {padding-left:8px;font-weight:bold;text-align:left;}
+.orderSrchListPaginationLinkText {font-weight:bold;}
+
+/*OrderSearch_browser_container*/
+.orderSrchBrowserForm {border: 0px none ; margin: 0px; padding: 0px;}
+.orderSrchBrowserHdrBg {background-image:url(/SEUILibrary/hightech-portal/images/cart/tableheadergrad.gif); 
+  background-repeat:repeat-x; 
+  background-position:center; 
+  height:31px;
+}
+.orderSrchBrowserHdrTitle {padding-left:8px;font-weight:bold;}
+.orderSrchBrowserDesc {padding-left:8px; padding-top:4px; padding-bottom:8px;font-weight:bold;}
+.orderSrchBrowserArea {padding-left:8px; width:296px;}
+.orderSrchBrowserHelp {font-weight:bold;}
+
+/* Sub series page */
+#subSeriesOverviewImage { padding-left:0px;  padding-bottom:0px; }
+#subSeriesBottomTable .btm-one-promo-module-top { font-weight:bold; }
+#subSeriesBottomTable .btm-one-promo-module-bottom { font-weight:bold; }
+#subSeriesBottomTable .btm-one-promo-module-content { height:100%; }
+
+/* builder pages */
+.builderProgressBarBg {background-color: #c9d3dd;}
+.builderProgressBarBorders {background-color: #C7D4DD;}
+.builderProgressBarBordersShade {background-color: #DCE5EC;}
+.builderProgressBarBackground {background-color: #FFFFFF;}
+.builderProgressBarLeftTop { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_upperleft_4x4.gif);  }
+.builderProgressBarRightTop { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_upperright_4x4.gif);  }
+.builderProgressBarLeftBottom { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_lowerleft_4x4.gif);  }
+.builderProgressBarRightBottom { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_lowerright_4x4.gif);  }
+
+.floatingcartCartContentBorders {background-color: #FFD4DD;}
+.floatingcartCartContentBordersShade {background-color: #DCE5EC;}
+.floatingcartCartContentBackground {background-color: #FFFFFF; background-image:url(/SEUILibrary/hightech-portal/images/icons/floater_prodgradient_1x113.gif); background-repeat:repeat-x}
+.floatingcartCartContentMiddleBg {background-color: #FFFFFF; }
+.floatingcartCartContentBottomBg {background-color: #FFFFFF; }
+.floatingcartCartContentLeftTop { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_upperleft_4x4.gif);  }
+.floatingcartCartContentRightTop { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_upperright_4x4.gif);  }
+.floatingcartCartContentLeftBottom { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_lowerleft_4x4.gif);  }
+.floatingcartCartContentRightBottom { width:4px; height:4px; background-image:url(/SEUILibrary/hightech-portal/images/icons/gallery_lowerright_4x4.gif);  }
+
+/* MENU STYLES */
+/*ul.menuLevelMain { white-space:nowrap; }*/
+/*li.menuLevelMain { display:inline;  marker-offset:0px; vertical-align:middle; color:#fff; margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;}*/
+/*li.menuLevelMainSeparator { display:inline; list-style-position:inside; marker-offset:0px; border-left:1px solid #fff; vertical-align:middle; width:10px; margin-left:6px; margin-right:0px; padding-left:0px; padding-right:1px;}*/
+/*a.menuLevelMain:link{ text-decoration:none; color:#fff; margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;}*/
+/*a.menuLevelMain:visited{ text-decoration:none; color:#fff; margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;}*/
+/*a.menuLevelMain:hover{ text-decoration:underline; color:#fff; margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px;}*/
+
+/*.menuLevel1LeftCorner {width:7px;background:black;}*/
+/*.menuLevel1RightCorner {background:black;}*/
+/*.menuLevel1LeftCornerSelected {background:black;}*/
+/*.menuLevel1RightCornerSelected {background:black;}*/
+
+/*.menuAreaRow1Middle  {background:black; }*/
+
+/*.menuAreaRow1 { margin-top:12px; display:block; background:black; text-align:left; white-space:nowrap; vertical-align:top; border-bottom: 1px solid #d70311; padding-bottom: 0px; }*/
+
+/*ul.menuLevel1 { display:inline; marker-offset:0px; text-align:left; margin-left:0px; padding-left:0px; }*/
+/*li.menuLevel1 {  text-transform:capitalize; margin:0px; padding:0px; margin-right:10px; display:inline; color:#fff; padding-right:0px;  }*/
+/*li.menuLevel1Selected { margin:0px; padding:0px; margin-right:10px; display:inline; marker-offset:0px; font-weight:bold; color:#d70311; background:black; }*/
+/*li.menuLevel1Separator { display:none;}*/
+
+/*.menuLevel1PreSubMenuIndicator{ display:none;  }*/
+/*.menuLevel1SubMenuIndicator{ display:none; }*/
+/*a.menuLevel1 { text-transform:uppercase; font-weight:bold;}*/
+a.menuLevel1Selected { text-transform:uppercase; font-weight:bold;}
+/*a.menuLevel1Selected:link{  text-decoration:none; color:#d70311;  }*/
+/*a.menuLevel1Selected:visited{ text-decoration:none; color:#d70311;}*/
+/*a.menuLevel1Selected:hover{ text-decoration:underline; color:#d70311; }*/
+/*a.menuLevel1:link{ text-decoration:none; color:#ffffff; }*/
+/*a.menuLevel1:visited{ text-decoration:none; color:#ffffff; }*/
+/*a.menuLevel1:hover{ text-decoration:underline; color:#ffffff; }*/
+
+/*.menuAreaRow2 { height:20px; padding-top:0px; margin-top:0px; display:block; background:black; text-align:left; white-space:nowrap; vertical-align:top; }*/
+/*.menuLevel2Background {background:black; }*/
+/*ul.menuLevel2 { text-align:left; background:black;  }*/
+/*ul.menuLevel2 li { margin:0px; padding:0px; float:left; display:inline; background:black; padding-top:3px; padding-left:10px; }*/
+li.menuLevel2 { color:#fff; }
+li.menuLevel2Selected { color:#d70311; }
+li.menuLevel2Separator { display:none; }
+/*.menuLevel2PreSubMenuIndicator{ display:none;  }*/
+/*.menuLevel2SubMenuIndicator{ display:none;}*/
+/*a.menuLevel2:link{ text-decoration:none; color:#ffffff; background:black; }*/
+/*a.menuLevel2:visited{ text-decoration:none; color:#ffffff; }*/
+/*a.menuLevel2:hover { text-decoration:underline; color:#ffffff; }*/
+/*a.menuLevel2Selected:hover {text-decoration:underline; color:#fffff; background:black;}*/
+
+/*li.menuLevel1Popup { margin-left: -3px;margin-right:-3px; display:inline; vertical-align:middle; color:#222222; background-color:#fafafa; padding-top:9px; padding-bottom: 9px; padding-left:13px; padding-right:13px; border-style:solid; border-width: 2px; border-bottom:0px; border-color:#c9d3dd;}*/
+/*a.menuLevel1Popup:link{ text-decoration:none; font-family: verdana,arial,helvetica,sans-serif; font-size: 11px; color:#006699; }*/
+/*a.menuLevel1Popup:visited{ text-decoration:none;  font-family: verdana,arial,helvetica,sans-serif; font-size: 11px; color:#006699;}*/
+/*a.menuLevel1Popup:hover{ text-decoration:underline;  font-family: verdana,arial,helvetica,sans-serif; font-size: 11px; color:#006699; }*/
+/*div.submenuLevel2Popup { display:none; position:absolute;  margin-left: 2px; top:0;left:0; z-index:110; border:none; background: none;  }*/
+/*ul.menuLevel2Popup { display:list-item; list-style-type:none; padding-left:3px;padding-right:2px; padding-top:0px; margin-left:-6px; border-right:2px solid #c3cfdf; border-left:2px solid #c3cfdf; border-bottom:2px solid #c3cfdf; background-color:#fafafa; margin-top:2px; }*/
+/*li.menuLevel2Popup {   marker-offset:0px; list-style-type:none; margin-bottom:0px; margin-top:0px; display:inline; vertical-align:top; color:#d69;   }*/
+/*li.menuLevel2PopupSeparator { display:inline; margin-left:0px; margin-right:0px; margin-bottom:0px; margin-top:0px;  }*/
+/*.menuLevel2PopupPreSubMenuIndicator{ display:none;  }*/
+/*.menuLevel2PopupSubMenuIndicator{ display:none; }*/
+/*a.menuLevel2Popup:link{ white-space:nowrap; display:list-item; text-decoration:none; font-weight: normal; color:#006699; font-weight:normal; padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;   }*/
+/*a.menuLevel2Popup:visited{ white-space:nowrap; display:list-item; text-decoration:none;  font-weight: normal; color:#006699;  padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;   }*/
+/*a.menuLevel2Popup:hover{ white-space:nowrap; display:list-item; text-decoration:underline; background-color:#c3cfdf;font-weight: normal; color:#006699; padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;    }*/
+
+/*div.submenuLevel2 { width:960px; background:black; display:none; position:relative; top:0;left:0; z-index:99;}*/
+/*div.submenuLevel3 { display:none; position:absolute; top:0;left:0; z-index:99; border:none; background: white; }*/
+/*ul.menuLevel3 { background:none}*/
+
+ul.menuLevel3 { display:list-item; list-style-type:none; padding-left:3px;padding-right:2px; padding-top:0px; margin-left:0px; border-right:1px solid #c3cfdf; border-left:1px solid #c3cfdf; border-bottom:1px solid #c3cfdf; background-color:white; margin-top:2px;}
+/*ul.menuLevel4 { display:list-item; padding-left:0px;padding-right:0px; margin-left:0px; display:block; margin-top:0px; }*/
+/*ul.menuLevel6  { display:list-item; padding-left:3px;padding-right:0px; margin-left:0px; display:block; margin-top:0px; }*/
+/*.menuLevel3PreSubMenuIndicator{ display:block; padding-top:0px; padding-bottom:0px; margin-top:0px; margin-bottom:4px; margin-left:0px; border-bottom:1px solid #c3cfdf;}*/
+/*.menuLevel5PreSubMenuIndicator{ display:none;  }*/
+/*li.menuLevel3{  marker-offset:0px; list-style-type:none; margin-bottom:0px; margin-top:0px; display:inline; vertical-align:top; color:#d69; }*/
+li.menuLevel6 { marker-offset:0px; list-style-type:none; margin-bottom:0px; margin-top:0px; display:inline; vertical-align:bottom; color:#d69; }
+/*li.menuLevel4Separator {display:inline; margin-bottom:0px; margin-top:0px;   }*/
+/*.menuLevel5SubMenuIndicator{display:none; }*/
+
+/*a.menuLevel3:link{ display:list-item; text-decoration:none; font-weight: normal; color:#006699; font-weight:normal; padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;   }*/
+/*a.menuLevel3:visited{ display:list-item; text-decoration:none; font-weight: normal; color:#006699;  padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;   }*/
+/*a.menuLevel3:hover{ display:list-item; text-decoration:underline; background-color:#c3cfdf; font-weight: normal; color:#006699; padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;    }*/
+/*a.menuLevel4:link{ display:list-item; text-decoration:none; color:#006699;  padding-left:16px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;   }*/
+/*a.menuLevel6:visited{ display:list-item; text-decoration:none; color:#006699;  padding-left:16px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;   }*/
+/*a.menuLevel5:hover{ display:list-item; text-decoration:underline; background-color:#c3cfdf; color:#006699; padding-left:16px; padding-right:10px; padding-top:2px; padding-bottom:2px; margin-bottom:0px; margin-top:0px;    }*/
+
+/*.siteWideArea { width:960px; padding: 0px; margin: 0px; display:block;}*/
+/*.mastheadTaglineArea { width: 100%; background: #202020; white-space:nowrap; height:30px; text-align:right;}*/
+ /*.mastheadTaglineArea div { font-size: 13px; color:#fff;  white-space:nowrap;}*/
+/*.mastheadPageTitleArea { margin:0px; padding:0px; margin-top:10px; width:70%; text-align:left; display:inline; vertical-align;middle; float:left; word-wrap: break-word;}*/
+/*.mastheadPageTitle { width:100%; margin-left:30px; display:table-cell; vertical-align:middle; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:24px; font-weight:bold; white-space:normal; float:left; word-wrap: break-word;}*/
+/*.mastheadPageTitleLong { width:100%; margin-left:30px; display:table-cell; vertical-align:middle; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:18px; font-weight:bold; white-space:normal; float:left; word-wrap: break-word;}*/
+/*.mastheadCampaignArea { margin:0px; padding:0px; margin-top:10px; width:25%; display:inline; vertical-align;middle; white-space:nowrap; float:right; color:black;}*/
+/*.mastheadCampaignWrapper { width:100%; display:table-cell; vertical-align:middle; text-align:right; float:right; line-height:21px;}*/
+/*.mastheadChatWrapper { display:inline; }*/
+/*.mastheadPhonePrefix { font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; display:inline; font-size:12px; color:#000000;}*/
+/*.mastheadPhonePrefix span { margin:5px; }*/
+/*.mastheadPhonePrefix img { vertical-align: middle; }*/
+/*.mastheadPhone { font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; display:inline;font-size:12px;  color:#000000;}*/
+/*.mastheadPhoneSuffix {  font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif;display:inline; font-size:12px; color:#000000;}*/
+
+/*.mastheadCrumbArea { clear:both; margin:0px; padding:0px; line-height:30px; height:30px; margin-top:16px;  background:#202020; color:#fff; vertical-align:middle; width:100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -moz-binding: url('/SEUILibrary/lenovo-portal/xml/navigation/ellipsis.xml#ellipsis'); }*/
+.mastheadCrumbArea a { background:#202020; color:#fff; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:11px;}
+/*.mastheadCrumbArea span { background:#202020; color:#fff; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:11px; }*/
+/*.mastheadCrumbLocation { display:inline; color:#a7a7a7; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:11px; }*/
+/*.mastheadCrumbDivider { display:inline; color:#fff; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:11px; margin-left:3px; margin-right:3px; }*/
+/*.mastheadCrumbLeftCorner { margin-left:0px; width:15px; display:inline; color:#fff; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:11px; }*/
+/*.mastheadCrumbRightCorner { margin-right:0px; width:15px; display:inline; color:#fff; font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:11px; }*/
+
+/*.mastheadArea { width:100%; padding:0px; padding-bottom:10px; margin: 0px auto 0 auto; background: black; display:block;}*/
+/*.mastheadLeft { margin-left:0px; padding-left:0px; width:470px; height: 49px; vertical-align: middle; display:inline; white-space:nowrap;}*/
+.mastheadLogoCell { float: left; width: 250px; height:49px; margin-top:10px; padding-top:10px; padding-bottom:10px; background-repeat: no-repeat; display:inline; }
+/*.mastheadCountrySelector { vertical-align:middle; display:inline; width: 158px; height: 26px; float: left; margin: 32px 0 0 4px;  }*/
+ option { font-size: 12px; }
+/*.mastheadRight  {margin-right:0px; padding-right:0px; padding-top:30px; float:left; width:460px; text-align:right; vertical-align: middle; display:inline; }*/
+
+/*.clr {clear:both;}*/
+
+/*#masthead { margin:0px; padding:0px; background:black; padding-bottom:20px;}*/
+/*#masthead a { font-family:"Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif; font-size:12px; }*/
+/*#masthead strong { font-family:"Lucida Sans","Lucida Sans Unicode","Lucida Grande",Helvetica,Arial,sans-serif;  font-size:12px;}*/
+/*#container { clear:both; margin:0px; padding:0px; display:block; }*/
+/* menu end */
+
+
+/* Facet layout */
+#search_layout_table #facet_criteria_table { background-color:#c9d3dd; }
+
+/* Facet results */
+.bg-spacer { 
+/SEUILibrary/lenovo-portal/images/icons/spacer_background.gif=/SEUILibrary/lenovo-portal/images/icons/spacer_background.gif
+  background-repeat:repeat-x;
+}
+.hd-cell { padding-top:5px; padding-bottom:5px }
+.resultsListColoredBackground { background-color: #e3e8ee; }
+div.linktext:hover { color:#999; }
+
+/* Image and text button style */
+/*.baseButtonNoBg .bttext { font-size: 11px; }*/
+.baseButtonNoBg:hover .bttext { color:#999; }
+
+
+/*.baseButton .bttext { background-image:url(/ISS_Static/images/lenovo_common/icons/buttons/R5/view_empty.gif); background-repeat: no-repeat; padding-left: 20px; padding-right:20px }*/
+.baseButton .btright,
+.baseButton .btleft { background-image:none; width:0px; display:none }
+
+
+/* Builder option links */
+.configLabel,
+.configOption,
+.configPrice,
+.pulldown { font-size:11px; }
+
+
+.le-price-list-container #CItem, #compatSeries, #compatModel { width:140px; }
+.le-price-list-container td { padding-left:5px; }
+
+#checkout-fields .bttext {vertical-align:middle; text-align:left; font-weight:bold; height:auto; padding-bottom: 1px;}
+
+/* Bugzilla #18023 start */
+#cartButtons .bttext {white-space:normal;}
+#cartButtons .cartLink {white-space:normal;}
+#cartButtons #cartButtonEmail .baseButtonNoBg {_white-space:normal;}
+#cartButtons #cartButtonDetails .bttext {width:64px;}
+#cartButtons #cartButtonEmail .bttext {width:68px;}
+#cartButtons #cartButtonResetReservations .bttext {width:64px;}
+#cartButtons #cartButtonResetReservations .baseButtonNoBg {_white-space:normal;}
+#cartButtons .baseButtonNoBg {padding-bottom:10px;}
+#cartButtons .baseButtonNoBg {_padding-bottom:1px;}
+#cartButtonEmail, #cartButtonDetails, #cartButtonResetReservations   {padding-left:0px;}
+/* Bugzilla #18023 end */
+/* telesales */
+#information-table { background-color:#FFFFCC; }
+.tsRelativeTableHeaderRow { background-color:#E7E7E7; display: block; float: left; }
+.tsRelativeTableHeaderRowFirst {margin-left: 19px;}
+.tsInvisibleTableHeaderRow { background-color:#E7E7E7; visibility:hidden; height:0px;}
+/* end telesales */
+
+#crumbtrail a {line-height:30px; color:#00f; }
+#crumbtrail h1 {font-size:2em;line-height:30px; color:#000000; }
+
+/* RQ 1068 - Model Detail */
+/*.baseButton{background:none; border:none; clear:both; color:#FFF; cursor:pointer; font-family:"Lucida Sans","Lucida Sans Unicode","Lucida Grande",Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; height:19px; margin:0; overflow:visible; padding:0; text-align:center; white-space:nowrap; width:150px}*/
+.baseButton:hover .bttext,
+.baseButton .btimage,
+.baseButton .bttext{display:block; background-image:url("/ISS_Static/images/lenovo_common/icons/buttons/R5/view_empty.gif"); background-repeat:no-repeat; padding:0px 10px; line-height:19px; width:130px; !width:150px; text-align:center; overflow:hidden}
+.baseButtonNoBg .bttext{    color:#00a3d5;     font-family:"Lucida Sans Unicode","Lucida Sans","Lucida Grande",Arial,Helvetica,sans-serif; line-height:16px}
+/*#itemDetailsArea{padding:0px; width:910px; vertical-align:top; border-top:solid 1px #cecfce; margin:0 25px; padding:0; overflow:hidden}*/
+/*#itemDetailsArea #productHighlights{float:left; width:300px; margin-bottom:50px}*/
+/*#itemDetailsArea #productHighlights #productImageDiv{width:100%; clear:both}*/
+/*#itemDetailsArea #productHighlights #productReviewDiv{text-align:center; padding-top:5px}*/
+/*#itemDetailsArea #productHighlights #productVideoWrapper{clear:both; margin-top:40px; width:100%}*/
+/*#itemDetailsArea #modelHighlights{float:left; margin:0 0 50px 25px; width:400px}*/
+/*#itemDetailsArea #modelHighlights #systemHighlights{width:100%}*/
+/*#itemDetailsArea #modelHighlights #systemHighlights .modelHighlightsTitle{font-family:"Lucida Sans","Lucida Sans Unicode","Lucida Grande",Arial,Helvetica,sans-serif; font-size:12px; font-weight:bold; padding-bottom:10px; }*/
+
+/*#itemDetailsArea #modelHighlights #systemHighlights .itemDetailsFeatureRow0 .itemDetailsFeatureValue{background-color:#efefef; }*/
+
+/*#itemDetailsArea #modelHighlights #systemHighlights .itemDetailsFeatureRow1 .itemDetailsFeatureValue{background-color:#fff; }*/
+/*#itemDetailsArea #modelHighlights #systemHighlights .itemDetailsFeatureValue{padding:10px; vertical-align:middle; }*/
+/*#itemDetailsArea #merchandisingArea{float:left; width:160px; margin:25px 0 50px 25px; overflow:hidden; }*/
+/*#itemDetailsArea #merchandisingArea #intelLogoArea{position:relative; clear:both; margin:0 0 30px 0; }*/
+/*#itemDetailsArea #merchandisingArea #merchandisingOffers{position:relative; clear:both; }*/
+/*#itemDetailsArea #merchandisingArea #pricesArea{position:relative; clear:both; }*/
+/*#itemDetailsArea #merchandisingArea #pricesArea #modelDetailsPricing{width:100%; background-color:transparent; border:none; }*/
+/*#itemDetailsArea #merchandisingArea #pricesArea #modelDetailsPricing td{height:16px; vertical-align:middle; }*/
+/*#itemDetailsArea #merchandisingArea #pricesArea #modelDetailsPricing .divider_cell{ padding:10px 0; text-align:center; }*/
+/*#itemDetailsArea #merchandisingArea #pricesArea .upgradeTo{clear:both; margin-top:50px; }*/
+/*#itemDetailsArea #merchandisingArea #pricesArea .upgradeTo p{margin:0 0 10px 0; }*/
+/*#itemDetailsArea #merchandisingArea #upgradeTo{position:relative; clear:both; }*/
+/*#itemDetailsArea #mainContentArea{background:transparent url(/ISS_Static/ww/wci/us/ww/images/page-tabs/top-shadow.png) top center repeat-x; clear:both; display:block; padding-top:21px; position:relative; width:920px; }*/
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea{background:transparent url(/ISS_Static/ww/wci/us/ww/images/page-tabs/bottom-shadow.png) bottom center repeat-x; clear:both; color:#fff; font-weight:normal; font-size:12px; height:60px; !height:72px; padding-bottom:21px; width:920px; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea ul{height:72px; margin:0; !margin-bottom:-12px; text-align:center; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li{color:#7b7b7b; cursor:pointer; display:inline-block; !display:inline; font-size:12px; height:72px; list-style-type:none; margin:0; padding:0; text-align:center; width:154px; !width:155px; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li:FIRST-CHILD{width:153px; !width:155px}
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li.itemDetailsTab{background:none}
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li.itemDetailsTabSelected{background:url(/ISS_Static/ww/wci/us/ww/images/page-tabs/tab-selected.png) no-repeat scroll bottom center; background-color:transparent; margin-left:-3px; color:#fff; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea a,
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea a:link,
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea a:visited{background:#fff; border-right:1px solid #d4d4d4; display:block; color:#7B7B7B; font-weight:normal; font-size:12px; height:60px; line-height:60px; position:relative; text-decoration:none; width:100%; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea a:hover{text-decoration:underline; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li:FIRST-CHILD a{border-left:1px solid #d4d4d4; margin-left:-1px; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li.itemDetailsTabSelected a,
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li.itemDetailsTabSelected a:link,
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li.itemDetailsTabSelected a:visited{background:none; color:#fff; }
+#itemDetailsArea #mainContentArea .itemDetailsTabsArea li.itemDetailsTabSelected a:hover{text-decoration:none; }
+
+/* FP 1315 Warranty start page */
+/*#warrantyArea { margin-top:20px; }*/
+/*#warrantyArea #warrantyContent 
+{ 
+  border:1px solid #cecfce; 
+  width:100%; 
+  height:353px;
+  background-repeat: no-repeat;
+  background-color: #efefef; 
+  position:relative;
+}*/
+/*#warrantyContent #warrantyAction { height:353px; width: 430px; float:right; background-color: #efefef;}*/
+/*#warrantyAction #warrantyTitle { font-size:16px; font-weight: bold; margin-top: 100px; width: 330px; }*/
+/*#warrantyAction #warrantySerialArea { margin-top: 20px; overflow:auto; }*/
+/*#warrantyAction #warrantySerialArea div { float:left; }*/
+/*#warrantyAction #warrantySerialArea span.formLabel { font-weight: bold;  }*/
+/*#warrantyAction #warrantyTypeArea { margin-top: 10px;}*/
+/*#warrantyAction #warrantyTypeArea div { float:left; overflow: auto; }*/
+/*#warrantyAction #warrantyTypelArea span.formLabel { font-weight: bold;  }*/
+/*#warrantyAction #warrantyContinueButton { margin-top: 10px; }*/
+ /*a.warrAddToCart
+{
+  cursor:pointer;
+  display: inline-block;
+  float: left;
+  height: 25px;
+  margin-top:3px;
+  margin-right: 0px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight:bold;
+  background: url(/ISS_Static/images/lenovo_common/icons/buttons/btn-primary-shop-right.png) no-repeat scroll top right;  
+  text-transform: uppercase;
+}*/
+ /*a.warrAddToCart span 
+{
+  display: inline-block;
+  line-height: 25px;
+  padding: 0px 16px 0px 31px;
+  background: url(/ISS_Static/images/lenovo_common/icons/buttons/btn-primary-shop-left.png) no-repeat;  
+}*/
+/*a.warrButtonOn
+{
+  background: url(/ISS_Static/images/lenovo_common/icons/buttons/btn-primary-onclick-shop-right.png) no-repeat scroll top right;
+}*/
+/*a.warrButtonOn span 
+{
+  background: url(/ISS_Static/images/lenovo_common/icons/buttons/btn-primary-onclick-shop-left.png) no-repeat;
+}*/
+/*#warrantySerialInput #serial-number { height: 20px; margin: 0px; padding: 0px; }*/
+/*#warrantyTypeInput #machine-type { height: 20px; margin: 0px; padding: 0px; }*/
+/*#warrantySerialArea #warrantySerialInput { margin-top:4px; }*/ 
+/*#warrantyTypeArea #warrantyTypeInput { margin-top:4px; }*/
+/*#warrantySerialArea #warrantySerialInstr { margin-left:5px; }*/
+/*#warrantyAction #warrantySerialInstr span.formLabel { font-weight: normal;  }*/
+/*#warrantyTypeArea #warrantyTypeInstr { margin-left:5px; }*/
+/*#warrantyTypeArea #warrantyTypeInstr span.formLabel { font-weight: normal;  }*/
+/*#warrantyAction #warrantyInputArea  { overflow:auto; }*/
+/*#warrantyAction #warrantyInputArea input { vertical-align: middle; }*/
+/*#warrantyInputArea #warrantyErrorMsg { clear:both; display:block; padding-top: 5px; color: #dc291e;}*/
+/* FP 1315 Warranty start page end */
+/* FP 1315 Warranty continue page */
+/*.warrPositiveRemainingDays { color: #F60 }*/
+/* FP 1315 Warranty continue page end */
+
+/* Broadband Prequalification Component */
+div.bbprequalify {border: none; background-color: #47D1FF;}
+div.bbprequalify table
+{
+  border-collapse:collapse;
+  border: none;
+  text-align:left;
+  padding: 10px;
+}
+div.bbprequalify tbody, div.bbprequalify thead, div.bbprequalify tr, div.bbprequalify td
+{
+  padding: 2px 2px 0px 4px;
+  border: none;
+  text-align:left;
+  font-family:'Helvetica Neue 65 Bold', Helvetica, sans-serif;
+  font-size:14px;
+}
+div.bbprequalify thead {font-weight: bold;}
